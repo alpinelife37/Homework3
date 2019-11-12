@@ -14,32 +14,33 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
+
+
   <body>
       <div class="navbar navbar-dark bg-light">
-        <a class ="navbar-brand href="#">James Random Password Generator</a>
+        <a class ="navbar-brand href="#">2019 Best Random Password Generator</a>
       </div>
 
 
 
 
-
-    <header>
-      <h1>Password Generator</h1>
-    </header>
-    <h2>Generate a Password</h2>
-    <textarea
-      readonly
-      id="password"
-      placeholder="Your Secure Password"
-      aria-label="Generated Password"
-    ></textarea>
-    <button id="generate">Generate Password</button>
-    <button id="copy">
-      Copy to Clipboard
-    </button>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-sm-12 mx-auto">
+          <div class="content">
+            <h4>Random Password Generator</h4>
+            <br />
+            <input type="text" id="display" />
+            <br />
+           
+            <button id="password" onclick="generate()">Generate Password</button>
+            
+            <button class="copy" onclick="copyPassword()">Copy to Clipboard</button>
+            <div id="length"></div>
+          </div>
   
   
-   <script src="script.js"></script>
+   <script src="code.js"></script>
   </body>
 
 </html>

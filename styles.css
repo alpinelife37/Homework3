@@ -1,9 +1,10 @@
 .content {
-  margin-top: 10px;
+  margin-top: 100px;
   margin-bottom: 10px;
   background-color: lightgray;
   padding: 20px;
   width: 100%;
+  border-radius: 15px;
 }
 
 #display {
@@ -21,4 +22,50 @@
 
 .previous_passwords {
   margin-bottom: 20px;
+}
+
+.copy {
+  background-color: darkgrey;
+  color: white;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-weight: bold;
+  font-size: x-large;
+  border-radius: 60%;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 60px;
+}
+
+#password {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-weight: bold;
+  font-size: x-large;
+  border-radius: 60%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.navbar-brand {
+  font-size: x-large;
+  text-align: center;
+}
+
+h4 {
+  font-size: 50px;
+}
+
+body {
+  background-color: darkcyan;
 }
